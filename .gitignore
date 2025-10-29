@@ -1,0 +1,46 @@
+# Bytecode-Dateien
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtuelle Umgebungen
+services/packing-assistant/.venv/
+env/
+venv/
+
+# Editor-/IDE-Dateien
+.vscode/
+.idea/
+
+# Betriebssystemspezifisches
+.DS_Store
+Thumbs.db
+
+# Logs und temporäre Dateien
+*.log
+*.tmp
+*.swp
+
+# Environment-Dateien
+services/packing-assistant/.env
+.env.*
+
+# Jupyter-Notebooks Checkpoints
+.ipynb_checkpoints/
+
+# Test-Ausgaben
+htmlcov/
+.tox/
+.coverage
+.cache/
+
+# Docker
+*.pid
+*.seed
+*.pid.lock
+docker-compose.override.yml
+
+# Sonstige generierte Daten
+dist/
+build/
+*.egg-info/
